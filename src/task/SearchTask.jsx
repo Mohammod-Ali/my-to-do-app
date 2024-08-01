@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
+
 const SearchTask = ({onSearch}) => {
     
     const [searchTerm, setSearchTerm] = useState("");
@@ -37,9 +38,9 @@ const SearchTask = ({onSearch}) => {
                         >
                             <path
                                 stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
                                 d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                             />
                         </svg>

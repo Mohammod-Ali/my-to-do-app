@@ -10,8 +10,11 @@ function App() {
   return (
     <>
     <Header></Header>
+    <div className='flex flex-col
+     justify-center items-center'>
     <HeroSection></HeroSection>
     <TaskBoard></TaskBoard>
+    </div>
     <Footer></Footer>
     </>
   )
